@@ -1,6 +1,6 @@
-local Fluent = loadstring(game:HttpGet("https://raw.githubusercontent.com/Aredeos/Moda/main/Uilibsc.txt"))()
-local SaveManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/Aredeos/Moda/main/Savemanager.txt"))()
-local InterfaceManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/Aredeos/Moda/main/InterfaceManager.txt"))()
+local Fluent = loadstring(game:HttpGet("https://raw.githubusercontent.com/Aredeos/Moda/main/Uilibsc.lua"))()
+local SaveManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/Aredeos/Moda/main/Savemanager.lua"))()
+local InterfaceManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/Aredeos/Moda/main/InterfaceManager.lua"))()
 
 local Window = Fluent:CreateWindow({
     Title = "Fluent " .. Fluent.Version,
